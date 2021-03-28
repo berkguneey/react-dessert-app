@@ -1,6 +1,10 @@
 # react-dessert-app
 ***Dessert Application With ReactJS***
 
+reactstrap  
+react-router-dom  
+hooks
+
 **Uygulayı çalıştırmak için:**
 
 Gerekli paketlerin kurulumu için: *npm install*  
