@@ -1,5 +1,5 @@
 # react-dessert-app
-***Dessert Application With ReactJS***
+***Basic Dessert Catalog Application With ReactJS With ReactJS***
 
 reactstrap  
 react-router-dom  
