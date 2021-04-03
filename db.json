@@ -1,0 +1,194 @@
+{
+  "desserts": [
+    {
+      "id": 0,
+      "name": "Mixed Berry Mousse",
+      "image": "XXX",
+      "category": "Muffin",
+      "label": "Cold",
+      "price": "10$",
+      "featured": true,
+      "description": "A mousse is always a great dessert option, thanks to its texture and its simplicity. Especially now that artisanal food and authentic flavors are in vogue. Offer a mixed berry version of this creamy dessert for a delicious combination of sweet and tart. This is the perfect light option to offer clients after a hearty meal."
+    },
+    {
+      "id": 1,
+      "name": "Mango And Coconut Soufflé",
+      "image": "XXX",
+      "category": "Cake",
+      "label": "Hot",
+      "price": "12$",
+      "featured": false,
+      "description": "Continuing with the theme of fruits and creamy textures, here's an option using more exotic fruits. We suggest adding a classic French soufflé to your menu, and taking it to the next level with mango morsels and a coconut topping. These two fruits are very appealing to clients, thanks to their natural sweetness, delicate flavors, and distinctive textures, since mango is soft and coconut is both crunchier and creamier. Go ahead and surprise your clients with this dessert!"
+    },
+    {
+      "id": 2,
+      "name": "Homemade Carrot Cake",
+      "image": "XXX",
+      "category": "Cake",
+      "label": "Cold",
+      "price": "8$",
+      "featured": false,
+      "description": "Carrot cake is one of the most popular cakes around these days. This home-style cake has been re-invented with a thick, sweet frosting made from cream cheese and nuts, and the use of whole cane sugar. Clients definitely prefer this cake when it highlights all the natural sweetness of the carrots, so that they can treat themselves without forsaking health entirely. Include it in your menu and add a personal touch, like a gluten-free version for patients with Celiac's disease."
+    },
+    {
+      "id": 3,
+      "name": "Vegan Chocolate Cake",
+      "image": "XXX",
+      "category": "Cake",
+      "label": "Cold",
+      "price": "11$",
+      "featured": false,
+      "description": "For environmentally-conscious clients, any vegan dessert is a plus. In this case, the most popular vegan cake is the chocolate cake, so offer one made with 70% cocoa or higher, for example, with raspberry jam filling, and watch your clients fall in love."
+    },
+    {
+      "id": 4,
+      "name": "Blondie With Vanilla Ice-Cream",
+      "image": "XXX",
+      "category": "Ice-Cream",
+      "label": "Cold",
+      "price": "10$",
+      "featured": false,
+      "description": "We're pleased to introduce you to another popular dessert. Her name is Blondie! Actually, it's a brownie with less chocolate and more whole cane sugar, making it more blonde than the traditional version. It also has a much airier texture than the dense chocolate brownie, so it pairs well with a touch of liquor, like rum, or with a scoop of vanilla ice cream for contrasting sensations."
+    },
+    {
+      "id": 5,
+      "name": "XL Lemon Meringue Pie",
+      "image": "XXX",
+      "category": "Muffin",
+      "label": "Hot",
+      "price": "16$",
+      "featured": false,
+      "description": "Meringue makes everyone's mouth water, and this recipe remains a popular crowd-pleaser. With that in mind, we suggest offering a version of the famous lemon pie and adding an extra-large meringue topping. This dessert is a guaranteed winner for your menu, and is sure to be a hit among all kinds of guests."
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dessertId": 0,
+      "rating": 5,
+      "comment": "I love the desert especially the fruit one looks lovely and delicious.",
+      "author": "Lucifer Morningstar",
+      "date": "2021-04-03T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "dessertId": 0,
+      "rating": 4,
+      "comment": "Nothing in this world is better than cake but more cake.",
+      "author": "Chloe Decker",
+      "date": "2021-01-05T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dessertId": 1,
+      "rating": 4,
+      "comment": "Wow, so yummy food. I must try them at home.",
+      "author": "Dr. Linda Martin",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dessertId": 1,
+      "rating": 3,
+      "comment": "A party without cake is just a meeting.",
+      "author": "Amenadiel",
+      "date": "2021-02-02T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "dessertId": 2,
+      "rating": 5,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "Dan Espinoza",
+      "date": "2021-03-02T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "dessertId": 2,
+      "rating": 4,
+      "comment": "Remember, you don’t need to justify eating a whole cake to anyone.",
+      "author": "Ted Mosby",
+      "date": "2021-02-16T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "dessertId": 3,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Marshall Eriksen",
+      "date": "2021-01-05T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "dessertId": 4,
+      "rating": 3,
+      "comment": "Let's face it, a nice creamy chocolate cake does a lot for a lot of people; it does for me.",
+      "author": "Robin Scherbatsky",
+      "date": "2021-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "dessertId": 4,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Barney Stinson",
+      "date": "2021-01-02T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "dessertId": 5,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "Lily Aldrin",
+      "date": "2021-01-02T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "dessertId": 5,
+      "rating": 5,
+      "comment": "Remember, you don’t need to justify eating a whole cake to anyone.",
+      "author": "Tracy McConnell",
+      "date": "2021-01-16T17:57:28.556094Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "XXX",
+      "image": "XXX",
+      "label": "XXX",
+      "price": "XXX",
+      "featured": true,
+      "description": "XXX"
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "XXX",
+      "image": "XXX",
+      "designation": "XXX",
+      "abbr": "XXX",
+      "featured": false,
+      "description": "XXX"
+    },
+    {
+      "id": 1,
+      "name": "XXX",
+      "image": "XXX",
+      "designation": "XXX",
+      "abbr": "XXX",
+      "featured": false,
+      "description": "XXX"
+    },
+    {
+      "id": 2,
+      "name": "XXX",
+      "image": "XXX",
+      "designation": "XXX",
+      "abbr": "XXX",
+      "featured": false,
+      "description": "XXX"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+export const ADD_DESSERTS = "ADD_DESSERTS";
+export const DESSERTS_FAILED = "DESSERTS_FAILED";
