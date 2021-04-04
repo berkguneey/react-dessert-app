@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Mixed Berry Mousse",
-      "image": "XXX",
+      "image": "images/mixed-berry-mousse.jpg",
       "category": "Muffin",
       "label": "Cold",
       "price": "10$",
@@ -13,7 +13,7 @@
     {
       "id": 1,
       "name": "Mango And Coconut Soufflé",
-      "image": "XXX",
+      "image": "images/mango-coconut-souffle.jpg",
       "category": "Cake",
       "label": "Hot",
       "price": "12$",
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "name": "Homemade Carrot Cake",
-      "image": "XXX",
+      "image": "images/homemade-carrot-cake.jpg",
       "category": "Cake",
       "label": "Cold",
       "price": "8$",
@@ -33,7 +33,7 @@
     {
       "id": 3,
       "name": "Vegan Chocolate Cake",
-      "image": "XXX",
+      "image": "images/vegan-chocolate-cake.jpg",
       "category": "Cake",
       "label": "Cold",
       "price": "11$",
@@ -43,7 +43,7 @@
     {
       "id": 4,
       "name": "Blondie With Vanilla Ice-Cream",
-      "image": "XXX",
+      "image": "images/blondie-vanilla-ice-cream.jpg",
       "category": "Ice-Cream",
       "label": "Cold",
       "price": "10$",
@@ -53,7 +53,7 @@
     {
       "id": 5,
       "name": "XL Lemon Meringue Pie",
-      "image": "XXX",
+      "image": "images/xl-lemon-meringue-pie.jpg",
       "category": "Muffin",
       "label": "Hot",
       "price": "16$",

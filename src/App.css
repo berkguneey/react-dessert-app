@@ -32,6 +32,12 @@
   background-color: #282c34;
 }
 
+.row-content {
+  margin: 0px auto;
+  padding: 30px 0px 30px 0px;
+  min-height: 400px;
+}
+
 .footer {
   background-color: #9c99a1;
   padding: 20px 0px 20px 0px;
