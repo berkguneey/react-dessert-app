@@ -29,19 +29,23 @@ function DessertDetail(props) {
 
   return (
     <div className="row-content">
-      <div className="row">
-        <div className="col-md-12">
-          <Breadcrumb>
-            <BreadcrumbItem>
-              <Link to="/menu">Menu</Link>
-            </BreadcrumbItem>
-            <BreadcrumbItem active>{props.dessert.name}</BreadcrumbItem>
-          </Breadcrumb>
+      {props.dessert != null &&
+      <div>
+        <div className="row">
+          <div className="col-md-12">
+            <Breadcrumb>
+              <BreadcrumbItem>
+                <Link to="/menu">Menu</Link>
+              </BreadcrumbItem>
+              <BreadcrumbItem active>{props.dessert.name}</BreadcrumbItem>
+            </Breadcrumb>
+          </div>
+        </div>
+        <div className="row">
+          <RenderDessert dessert={props.dessert} />
         </div>
       </div>
-      <div className="row">
-        <RenderDessert dessert={props.dessert} />
-      </div>
+      }
     </div>
   );
 }

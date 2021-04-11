@@ -11,9 +11,11 @@ function App(props) {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <div className="App">
-          <Main />
-        </div>
+        <React.Fragment>
+          <div className="App">
+            <Main />
+          </div>
+        </React.Fragment>
       </BrowserRouter>
     </Provider>
   );
