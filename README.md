@@ -5,7 +5,8 @@ react-redux
 redux-thunk
 reactstrap  
 react-router-dom  
-hooks
+react-animation-component  
+hooks  
 json-server
 
 **Uygulayı çalıştırmak için:**
