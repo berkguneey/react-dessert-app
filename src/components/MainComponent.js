@@ -13,14 +13,16 @@ import About from "./AboutComponent";
 import Menu from "./MenuComponent";
 import Contact from "./ContactComponent";
 import Footer from "./FooterComponent";
-import { fetchDesserts } from "../redux/ActionCreators";
+import { fetchDesserts, fetchComments } from "../redux/ActionCreators";
 import DessertDetail from "./DessertDetailComponent";
 
 function Main(props) {
   const { desserts, fetchDesserts } = props;
+  const { comments, fetchComments } = props;
   useEffect(() => {
     fetchDesserts();
-  }, [fetchDesserts]);
+    fetchComments();
+  }, [fetchDesserts, fetchComments]);
 
   const DessertWithId = () => {
     const { dessertId } = useParams();
@@ -31,6 +33,9 @@ function Main(props) {
             (dessert) => dessert.id === parseInt(dessertId)
           )[0]
         }
+        comments={comments.comments.filter(
+          (comment) => comment.dessertId === parseInt(dessertId, 10)
+        )}
       />
     );
   };
@@ -60,12 +65,16 @@ function Main(props) {
 const mapStateToProps = (state) => {
   return {
     desserts: state.desserts,
+    comments: state.comments,
   };
 };
 
 const mapDispatchToProps = (dispatch) => ({
   fetchDesserts: () => {
     dispatch(fetchDesserts());
+  },
+  fetchComments: () => {
+    dispatch(fetchComments());
   },
 });
 

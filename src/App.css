@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.App li {
+  text-align: left;
+}
+
+.dessert-comments {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
