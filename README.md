@@ -9,12 +9,18 @@ react-animation-component
 hooks  
 json-server
 
+**Gerekli paketlerin kurulumu için:**
+
+    npm install json-server -g  
+    npm install  
+
 **Uygulayı çalıştırmak için:**
 
-json-server --watch db.json --port 3001
+    json-server --watch db.json --port 3001
+    npm start
 
-Gerekli paketlerin kurulumu için: *npm install*  
-Uygulamayı başlatmak için: *npm start*  
-Uygulamayı build etmek için: *npm run build*
+**Uygulamayı build etmek için:**
+
+    npm run build
 
 Uygulama development modunda 3000 portu üzerinden çalışacaktır.
