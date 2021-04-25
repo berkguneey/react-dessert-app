@@ -47,6 +47,10 @@
   min-height: 400px;
 }
 
+#contact-form {
+  text-align: left;
+}
+
 .footer {
   background-color: #9c99a1;
   padding: 20px 0px 20px 0px;
