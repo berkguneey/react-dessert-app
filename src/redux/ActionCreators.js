@@ -1,5 +1,9 @@
 import * as ActionTypes from "./ActionTypes";
 
+export const dessertsLoading = () => ({
+  type: ActionTypes.DESSERTS_LOADING,
+});
+
 export const addDesserts = (desserts) => ({
   type: ActionTypes.ADD_DESSERTS,
   payload: desserts,
@@ -23,27 +27,30 @@ export const commentsFailed = (errMessage) => ({
 // Fetch Methods
 
 export const fetchDesserts = () => (dispatch) => {
-  return fetch("http://localhost:3001/desserts")
-    .then(
-      (response) => {
-        if (response.ok) {
-          return response;
-        } else {
-          var error = new Error(
-            "Error " + response.status + " : " + response.statusText
-          );
-          error.response = response;
-          throw error;
+  dispatch(dessertsLoading());
+  setTimeout(function () {
+    return fetch("http://localhost:3001/desserts")
+      .then(
+        (response) => {
+          if (response.ok) {
+            return response;
+          } else {
+            var error = new Error(
+              "Error " + response.status + " : " + response.statusText
+            );
+            error.response = response;
+            throw error;
+          }
+        },
+        (error) => {
+          var errMessage = new Error(error.message);
+          throw errMessage;
         }
-      },
-      (error) => {
-        var errMessage = new Error(error.message);
-        throw errMessage;
-      }
-    )
-    .then((response) => response.json())
-    .then((desserts) => dispatch(addDesserts(desserts)))
-    .catch((error) => dispatch(dessertsFailed(error.message)));
+      )
+      .then((response) => response.json())
+      .then((desserts) => dispatch(addDesserts(desserts)))
+      .catch((error) => dispatch(dessertsFailed(error.message)));
+  }, 1000);
 };
 
 export const fetchComments = () => (dispatch) => {

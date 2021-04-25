@@ -33,6 +33,7 @@ function Main(props) {
             (dessert) => dessert.id === parseInt(dessertId)
           )[0]
         }
+        isLoading={desserts.isLoading}
         comments={comments.comments.filter(
           (comment) => comment.dessertId === parseInt(dessertId, 10)
         )}

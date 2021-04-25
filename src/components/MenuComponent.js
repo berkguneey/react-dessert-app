@@ -7,6 +7,7 @@ import {
   Breadcrumb,
   BreadcrumbItem,
 } from "reactstrap";
+import { Loading } from "./LoadingComponent";
 import { Link } from "react-router-dom";
 
 function Menu(props) {
@@ -48,7 +49,13 @@ function Menu(props) {
           </Breadcrumb>
         </div>
       </div>
-      <div className="row">{menu}</div>
+      {props.desserts.isLoading ? (
+        <div className="row">
+          <Loading />
+        </div>
+      ) : (
+        <div className="row">{menu}</div>
+      )}
     </div>
   );
 }
