@@ -1,8 +1,8 @@
 # react-dessert-app
 ***Basic Dessert Catalog Application With ReactJS***
 
-react-redux
-redux-thunk
+react-redux  
+redux-thunk  
 reactstrap  
 react-router-dom  
 react-animation-component  
